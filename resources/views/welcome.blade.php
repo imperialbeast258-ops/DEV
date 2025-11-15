@@ -49,7 +49,7 @@
     }
     </script>
 </head>
-<body style="background-color:#01052b ;">
+<body style="background-color:#220722 ;">
     <nav role="navigation" class="nav container rounded p-3 fw-bold mx d-flex align-items-center fixed-top">
         <a href="#MyPortfolio" class="portfolio">My Portfolio</a>
 

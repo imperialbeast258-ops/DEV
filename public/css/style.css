@@ -1,5 +1,5 @@
 .nav {
-    background-color: #1A1F4A;  
+    background-color: #893b90;  
     color: #F0F0F0;              
     border-bottom: 2px solid #00FFFF;  
 }
@@ -8,7 +8,7 @@
     color: #F0F0F0;
     text-decoration: none;
     font-size: 1rem;
-    background-color: #1A1F4A ;
+    background-color: #893b90 ;
 }
   
 .nav a:hover {
@@ -20,7 +20,7 @@
 }
 
 .home {
-    background-color: #0A0F3D;
+    background-color: #893b90;
     color: #F0F0F0;
     border-width: 1px;
     padding-left: 100px;
@@ -37,7 +37,7 @@
 }
 
 .Achievements {
-    background-color: #1A1F4A;
+    background-color: #893b90;
     color: #FFFFFF;
     margin-top: 50px;
 }
@@ -78,7 +78,7 @@ margin-top: -350px;
 }
 
 .Skill-content {
-    background-color: #222A68;
+    background-color: #893b90;
     color: #FFFFFF;
     border-radius: 5px;
     margin-top: 50px;
@@ -108,14 +108,14 @@ height: 30px;
   }
 
 .progress-bar:nth-child(1) {
-    background-color: #00BFFF; 
+    background-color: #ff00dd; 
     color: black;
     font-weight: 700;
 
 }
 
 .Project {
-    background-color: #2B347C;
+    background-color: #7c2b7c;
     padding: 60px 30px;
     margin-top: 50px;
     border-radius: 10px;
@@ -135,7 +135,7 @@ height: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px; 
-    background-color: #2B347C; 
+    background-color: #7c2b7c; 
     padding: 40px;
     border-radius: 10px;
     width: 100%;
@@ -225,7 +225,7 @@ height: 30px;
       transition: transform 0.5s ease;
 }
 .Contact {
-    background-color: #3B3F90;
+    background-color: #893b90;
     padding: 60px 30px;
     margin-top: 50px;
     border-radius: 10px;
@@ -240,7 +240,7 @@ height: 30px;
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #01052b;
+    background-color: #28012b;
     color: #fff;
 }
 
@@ -250,7 +250,7 @@ section h2 {
 }
 
 form {
-    background-color: #2B347C;
+    background-color: #7c2b7c;
     padding: 30px;
     border-radius: 10px;
 }
@@ -258,21 +258,21 @@ form {
 form .form-control {
     background-color: #333;
     color: #fff;
-    border: 1px solid #00FFFF;
+    border: 1px solid #1900ff;
 }
 
 form .btn-primary {
-    background-color: #00FFFF;
+    background-color: #1900ff;
     border: none;
     color: #fff;
 }
 
 form .btn-primary:hover {
-    background-color: #00BFFF;
+    background-color: #1900ff;
 }
 
 .social-media i {
-    color: #00FFFF;
+    color: #1900ff;
 }
 
 .social-media i:hover {
