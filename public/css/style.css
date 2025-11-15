@@ -1,0 +1,291 @@
+.nav {
+    background-color: #1A1F4A;  
+    color: #F0F0F0;              
+    border-bottom: 2px solid #00FFFF;  
+}
+
+.nav a {
+    color: #F0F0F0;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #1A1F4A ;
+}
+  
+.nav a:hover {
+    color: #00FFFF;
+}
+  
+.portfolio {
+    cursor: default;
+}
+
+.home {
+    background-color: #0A0F3D;
+    color: #F0F0F0;
+    border-width: 1px;
+    padding-left: 100px;
+    margin-top: 125px;
+   
+}
+
+.image {
+    clip-path: circle(40%);
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-right: 100px;
+}
+
+.Achievements {
+    background-color: #1A1F4A;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+
+.home-content h4 {
+    font-size: 3rem;
+}
+  
+.home-content h6 {
+    font-size: 1.5rem;
+}
+  
+.home-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+  
+.info-address div {
+    margin: 10px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+
+.info-address h6 {
+    font-size: 2.5rem;
+    padding-left: 90px;
+    padding-bottom: 50px;
+}
+
+.image2 {
+max-height: 400px;
+width: auto;
+height: 300px;
+margin-left: 880px;
+margin-top: -350px; 
+}
+
+.Skill-content {
+    background-color: #222A68;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+.Skill-content h5{
+    padding-left: 110px;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+}
+.Skill-content h6{
+    font-size: 2.5rem;
+    padding-left: 110px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.progress {
+margin-left:170px;
+width: 75%;  
+height: 30px;
+}
+
+.container {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  }
+
+.progress-bar:nth-child(1) {
+    background-color: #00BFFF; 
+    color: black;
+    font-weight: 700;
+
+}
+
+.Project {
+    background-color: #2B347C;
+    padding: 60px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.Project h6 {
+    font-size: 2.5rem;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.Project p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    background-color: #2B347C; 
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00FFFF; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 20px;
+    font-size: 1.25rem;
+    color: #F0F0F0;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.grid-container img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px; 
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.grid-container > div:hover img {
+    transform: scale(1.05);
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 9999; 
+    padding-top: 60px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.9); 
+}
+  
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+  
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    color: #00FFFF;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+  
+.close:hover,
+.close:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+
+.grid-container > div:hover img {
+      transform: scale(1.05);
+}
+  
+
+.grid-container img {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+}
+.Contact {
+    background-color: #3B3F90;
+    padding: 60px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.Contact h6 {
+    font-size: 2.5rem;
+    padding-left: 70px;
+    padding-top: 50px;
+}  
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #01052b;
+    color: #fff;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #2B347C;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form .form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #00FFFF;
+}
+
+form .btn-primary {
+    background-color: #00FFFF;
+    border: none;
+    color: #fff;
+}
+
+form .btn-primary:hover {
+    background-color: #00BFFF;
+}
+
+.social-media i {
+    color: #00FFFF;
+}
+
+.social-media i:hover {
+    color: #fff;
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #aaa;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
