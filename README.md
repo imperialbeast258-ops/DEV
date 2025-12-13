@@ -30,5 +30,5 @@ If hosted using GitHub Pages:
 ### Option 2: View Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/imperialbeast258-ops/DEV.git
 
