@@ -1,13 +1,34 @@
+# Portfolio
 
----
+This is my personal portfolio website.  
+It showcases my information, skills, and current status as a developer.
 
-# Want me to **generate a proper README for your project**?
-Just tell me:
+The purpose of this portfolio is to give visitors an overview of who I am,
+what I can do, and the technologies I am familiar with.
 
-✔ Project name  
-✔ What it does  
-✔ Tech used  
-✔ How to install  
-✔ Extra features  
+## About the Project
 
-I can create a full professional README.md for you.
+This portfolio serves as an online resume where users can:
+- Learn about me
+- View my skills and background
+- See my current status and interests
+
+## Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Git & GitHub  
+
+## How to View the Portfolio
+
+### Option 1: View Online (Recommended)
+If hosted using GitHub Pages:
+1. Go to the repository
+2. Click the GitHub Pages link provided in the repository description
+
+### Option 2: View Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+
